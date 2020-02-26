@@ -30,7 +30,10 @@
                         </div>
                     </li>
                     @guest
-                        <a class="mamunur_rashid_top_book_btn" href="{{ route('login') }}">Sign In</a>
+                        {{--<a class="mamunur_rashid_top_book_btn" href="{{ route('login') }}">Sign In</a>--}}
+                        <li class="nav-item">
+                            <a class="nav-link " href="{{ route('login') }}">Sign In</a>
+                        </li>
                     @else
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle
@@ -43,8 +46,10 @@
                         </li>
                     @endguest
                 </ul>
+
                 <a class="mamunur_rashid_top_book_btn" href="search.html">Buy Ticket</a>
             </div>
         </div>
     </nav>
+
 </div>
