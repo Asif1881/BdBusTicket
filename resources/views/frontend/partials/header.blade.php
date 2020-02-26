@@ -29,9 +29,21 @@
                             
                         </div>
                     </li>
+                    @guest
+                        <a class="mamunur_rashid_top_book_btn" href="{{ route('login') }}">Sign In</a>
+                    @else
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle
+                                                         " href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">{{ \Auth::user()->name }}
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                <a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
+                            </div>
+                        </li>
+                    @endguest
                 </ul>
                 <a class="mamunur_rashid_top_book_btn" href="search.html">Buy Ticket</a>
-                <a class="mamunur_rashid_top_book_btn" href="{{ route('login') }}">Sign In</a>
             </div>
         </div>
     </nav>
