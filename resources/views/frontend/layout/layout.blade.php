@@ -32,6 +32,13 @@
     <link rel="stylesheet" type="text/css" href="{{asset('/')}}assets/front/css/homePageResponsive.css">
     <link rel="stylesheet" type="text/css" href="{{asset('/')}}assets/front/css/jquery.autocomplete.css">
     <link rel="stylesheet" type="text/css" href="{{asset('/')}}assets/front/css/flatpickr.min.css">
+
+    <style>
+        #contact-main {
+            position: relative;
+             padding-top: 0px;
+        }
+    </style>
 </head>
 
 <body class="body-class bc blog">
