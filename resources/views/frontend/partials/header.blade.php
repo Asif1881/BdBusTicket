@@ -2,7 +2,8 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="{{ route('bd-bus.index') }}">
-                <img src="assets/images/logo/logo.png" alt="..">
+{{--                <img src="assets/images/logo/logo.png" alt="..">--}}
+                <h2 style="color: #0032ff">BD BUS TICKET</h2>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent"
