@@ -11,10 +11,11 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
 Auth::routes();
 
+Route::get('/', 'FrontendController@index')->name('bd-bus.index');
 Route::get('/home', 'HomeController@index')->name('home');
