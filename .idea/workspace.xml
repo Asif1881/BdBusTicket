@@ -2,100 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db2f9c4b-b568-4cd8-9340-f8f5d4dce9cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/sweetalert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/toastr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/sweetalert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/js/toastr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/bc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/flatpickr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/homePageResponsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/jquery.autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/otherPageResponsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/plugins/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/plugins/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/plugins/fonts/slick-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/plugins/fonts/slick-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/plugins/fonts/slick-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/plugins/fonts/slick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/plugins/fonts/slickd41d.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/plugins/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/plugins/owl.video.play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/plugins/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/plugins/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/seat-custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/css/styled19d.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/fonts/fontawesome-webfont3e6e.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/fonts/fontawesome-webfont3e6e.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/fonts/fontawesome-webfont3e6e.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/fonts/fontawesome-webfont3e6e.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/fonts/fontawesome-webfont3e6e.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/img/banner/banner-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/img/banner/banner1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/img/offer/bg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/img/other/control-tur.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/img/other/pro-service-bg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/img/popular-turs/top-p-bg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/img/torisumCountries/neweslatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/js/flatpickr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/js/jquery.2.1.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/js/jquery.autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/js/plugins/gmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/js/plugins/jquery.counterup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/js/plugins/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/js/plugins/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/js/plugins/venobox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/front/js/plugins/waypoints.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/about-video-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logo/breadcrumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logo/contactForm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logo/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logo/tour_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_1550128400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_1550128492.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_1550128527.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_1550128559.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_1550128575.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_1550128595.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_1550128620.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_1550128633.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_thumb1550128400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_thumb1550128492.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_thumb1550128527.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_thumb1550128559.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_thumb1550128575.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_thumb1550128595.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_thumb1550128621.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/post/post_thumb1550128633.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/tour/destination_1550147317.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/tour/destination_1550147330.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/tour/destination_1550147346.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/tour/destination_1550147362.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/tour/destination_1550147384.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/tour/destination_1550147550.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/tour/tour_1550142664.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/tour/tour_1550142690.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/tour/tour_1550142701.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/tour/tour_1551269986.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/layout/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/frontend/partials/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/login(old).blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/register(old).blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Theme/bus_ticket_reservation_widget.zip" beforeDir="false" afterPath="$PROJECT_DIR$/theme/bus_ticket_reservation_widget.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Theme/material-dashboard-master.zip" beforeDir="false" afterPath="$PROJECT_DIR$/theme/material-dashboard-master.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,17 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/layout/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1971">
-              <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8624">
-              <caret line="392" column="6" selection-start-line="392" selection-start-column="6" selection-end-line="392" selection-end-column="6" />
+            <state relative-caret-position="299">
+              <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -148,22 +50,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-              <folding>
-                <element signature="e#253#259#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="10" column="59" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/register(old).blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="11" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/partials/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="66">
+              <caret line="3" column="64" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -184,6 +101,10 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/FrontendController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/partials/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
       </list>
     </option>
   </component>
@@ -299,24 +220,6 @@
             <path>
               <item name="BdBusTicket" type="b2602c69:ProjectViewProjectNode" />
               <item name="BdBusTicket" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BdBusTicket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BdBusTicket" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BdBusTicket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BdBusTicket" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BdBusTicket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BdBusTicket" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -324,6 +227,20 @@
               <item name="BdBusTicket" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BdBusTicket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BdBusTicket" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BdBusTicket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BdBusTicket" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,7 +252,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../esmoty" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/auth" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -343,6 +260,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/auth" />
+      <recent name="$PROJECT_DIR$/resources/views/frontend" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/resources/views/frontend/partials" />
     </key>
@@ -369,12 +288,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582723494655</updated>
-      <workItem from="1582723495852" duration="3734000" />
+      <workItem from="1582723495852" duration="5398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3734000" />
+    <option name="totallyTimeSpent" value="5398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -401,6 +320,28 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.17306623" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3289183" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3289183" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -443,20 +384,6 @@
     <entry file="file://$PROJECT_DIR$/routes/console.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/frontend/layout/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1971">
-          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8624">
-          <caret line="392" column="6" selection-start-line="392" selection-start-column="6" selection-end-line="392" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FrontendController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -471,10 +398,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login(old).blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="41" selection-start-line="31" selection-start-column="32" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/partials/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="66">
+          <caret line="3" column="64" lean-forward="true" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/layout/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register(old).blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
         </state>
       </provider>
     </entry>
