@@ -25,13 +25,13 @@
                                                          " href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true"
                            aria-expanded="false">Booking                            </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                            <a class="dropdown-item" href="login.html">টিকেট ক্যানসেল</a>
-                            <a class="dropdown-item" href="ticket-print.html">প্রিন্ট ডাউনলোড</a>
+                            <a class="dropdown-item" href="login.html">Tikcet Cancel</a>
+                            
                         </div>
                     </li>
                 </ul>
                 <a class="mamunur_rashid_top_book_btn" href="search.html">Buy Ticket</a>
-                <a class="mamunur_rashid_top_book_btn" href="{{ route('login') }}">সাইন ইন</a>
+                <a class="mamunur_rashid_top_book_btn" href="{{ route('login') }}">Sign In</a>
             </div>
         </div>
     </nav>

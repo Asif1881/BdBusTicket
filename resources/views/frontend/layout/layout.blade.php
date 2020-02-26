@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <title>   Search |   BlueBUS  </title>
+    <title>   Search |   BdBusTicket  </title>
     <!-- favicon -->
     <link rel="shortcut icon" href="{{asset('/')}}assets/images/logo/favicon.png" type="image/x-icon">
 
