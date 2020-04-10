@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db2f9c4b-b568-4cd8-9340-f8f5d4dce9cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/BdBusTicket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BdBusTicket.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/layout/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/partials/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/partials/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020_03_21_115450_create_operators_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020_03_21_115611_create_buses_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020_03_21_115700_create_bookings_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020_03_21_115756_create_bus_schedules_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020_03_21_115819_create_regions_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020_03_21_115900_create_sub_regions_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020_03_21_115943_create_customers_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +18,6 @@
     <execution>
       <executable />
     </execution>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>we are</find>
-      <find>We are 1.000.000 web developers</find>
-      <find>nimbus-is-editor</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,7 +122,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fire_service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/backend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -151,11 +130,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\BdBusTicket\resources\views\backend" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/auth" />
       <recent name="$PROJECT_DIR$/resources/views/frontend" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/resources/views/frontend/partials" />
     </key>
   </component>
   <component name="RunManager">
@@ -176,7 +155,7 @@
       <updated>1582723494655</updated>
       <workItem from="1582723495852" duration="9435000" />
       <workItem from="1582737264297" duration="493000" />
-      <workItem from="1586489793129" duration="4996000" />
+      <workItem from="1586489793129" duration="6233000" />
     </task>
     <servers />
   </component>
@@ -200,9 +179,9 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="184" y="46" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1586510543081" />
-    <state x="339" y="57" width="670" height="676" key="search.everywhere.popup" timestamp="1586510721573">
+    <state x="339" y="57" width="670" height="676" key="search.everywhere.popup" timestamp="1586511259652">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="339" y="57" width="670" height="676" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1586510721573" />
+    <state x="339" y="57" width="670" height="676" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1586511259652" />
   </component>
 </project>
