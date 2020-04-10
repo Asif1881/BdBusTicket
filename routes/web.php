@@ -21,6 +21,14 @@ Route::get('/', 'FrontendController@index')->name('bd-bus.index');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 
-Route::get('/admin', function () {
+/*Route::get('/admin', function () {
     return view('admin');
+});*/
+
+Route::group( [ 'middleware' => ['auth','admin']], function() {
+    Route::resource('admin', 'AdminController');
+});
+
+Route::group( [ 'middleware' => ['auth','customer']], function() {
+
 });
