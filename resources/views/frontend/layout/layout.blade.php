@@ -108,6 +108,122 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
+
+        $('.boarding_point').select2();
+
+
+        /*
+        *------------------------------------------------------
+        * @function: findBookingInformation()
+        * @return    : location, facilities, seatsList
+        *------------------------------------------------------
+        */
+        var total_seat = $('input[name=total_seat]');
+        var total_fare = $('input[name=total_fare]');
+        var seat_number = $('input[name=seat_number]');
+
+        var price = $('input[name=price]').val();
+        var booking_date = $('input[name=booking_date]');
+
+        var seatPreview = $('#seatPreview');
+        var pricePreview = $('#pricePreview');
+        var grandTotalPreview = $('#grandTotalPreview');
+        var outputPreview = $('#outputPreview');
+
+        if (total_seat.val() == '') {
+            $("#submit-btn").attr('disabled', true);
+        }
+
+        /*
+        *------------------------------------------------------
+        * Choose seat(s)
+        * @function: findPriceBySeat
+        * @return  : selected seat(s), price and group price
+        *------------------------------------------------------
+        */
+
+        $('body').on('click', '.ChooseSeat', function () {
+            var seat = $(this);
+            if (seat.attr('data-item') != "selected") {
+                seat.removeClass('occupied').addClass('selected').attr('data-item', 'selected');
+            } else if (seat.attr('data-item') == "selected") {
+                seat.removeClass('selected').addClass('occupied').attr('data-item', '');
+            }
+            //reset seat serial for each click
+            var seatSerial = "";
+            var countSeats = 0;
+
+            $("div[data-item=selected]").each(function (i, x) {
+                countSeats = i + 1;
+                seatSerial += $(this).text().trim() + ", ";
+            });
+
+            total_fare.val(countSeats * price);
+            $("#grandTotalPreview").text((countSeats * price) + " USD");
+            total_seat.val(countSeats);
+            seat_number.val(seatSerial);
+            seatPreview.html(seatSerial);
+
+            if (countSeats > 0) {
+                $("#submit-btn").attr('disabled', false);
+            } else {
+                $("#submit-btn").attr('disabled', true);
+            }
+        });
+
+
+        $(document).on('click', "#submit-btn", function (e) {
+            e.preventDefault();
+            var boarding = $("input[name=boarding]").val();
+            var trip_route_id = $("input[name=trip_route_id]").val();
+            var fleet_registration_id = $("input[name=fleet_registration_id]").val();
+            var trip_assign_id_no = $("input[name=trip_id_no]").val();
+            var id_no = $("input[name=id_no]").val();
+            var fleet_type_id = $("input[name=fleet_type_id]").val();
+            var total_seat = $("input[name=total_seat]").val();
+            var seat_number = $("input[name=seat_number]").val();
+            var price = $("input[name=price]").val();
+            var total_fare = $("input[name=total_fare]").val();
+            var booking_date = $("input[name=booking_date]").val();
+
+            $.ajax({
+                type: "post",
+                url: "https://ideal.thesoftking.com/bluebus/checked-seat",
+                //contentType: false,
+                //processData: false,
+                data: {
+                    boarding: boarding,
+                    trip_route_id: trip_route_id,
+                    fleet_registration_id: fleet_registration_id,
+                    trip_assign_id_no: trip_assign_id_no,
+                    id_no: id_no,
+                    fleet_type_id: fleet_type_id,
+                    total_seat: total_seat,
+                    seat_number: seat_number,
+                    price: price,
+                    total_fare: total_fare,
+                    booking_date: booking_date
+                },
+
+                success: function (data) {
+                    console.log(data)
+                    if (data.status == 1000) {
+                        toastr.error(data.arr + " Seat Booked Yet. <br> Please select another seat");
+                    }
+                    if (data.pnr) {
+                        window.location.href = "https://ideal.thesoftking.com/bluebus/seat-book/details" + '/' + data.pnr;
+                    }
+                },
+
+                error: function (res) {
+                    //console.log(res);
+                }
+            });
+
+        });
+    });
+
+    $(document).ready(function () {
         var states = ["Location 1","Location 2"];
         $(function () {
             $("#fromAutoComplete").autocomplete({

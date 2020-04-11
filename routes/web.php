@@ -21,6 +21,8 @@ Route::get('/', 'FrontendController@index')->name('bd-bus.index');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 
+Route::resource('all-seats','CustomerSeatController');
+
 /*Route::get('/admin', function () {
     return view('admin');
 });*/
