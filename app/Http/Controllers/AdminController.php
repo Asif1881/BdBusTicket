@@ -23,6 +23,13 @@ class AdminController extends Controller
         return view('backend.users',compact('users'));
     }
 
+    public function buy_ticket()
+    {
+        $buy_tickets = SeatDetails::all();
+//        dd($buy_tickets);
+        return view('backend.buy_ticket',compact('buy_tickets'));
+    }
+
     public function ticket_price()
     {
         $seat_details = SeatPrice::where('status',1)->get();

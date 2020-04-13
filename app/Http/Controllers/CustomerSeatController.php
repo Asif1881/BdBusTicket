@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\SeatDetails;
+use App\SeatPrice;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class CustomerSeatController extends Controller
 {
@@ -34,7 +38,28 @@ class CustomerSeatController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'price' => 'required',
+            'bus_name' => 'required',
+            'bus_number' => 'required',
+            'route_name' => 'required',
+            'total_seat' => 'required',
+            'seat_number' => 'required',
+        ]);
+
+        $add = new SeatDetails();
+        $add->seat_price_id = $request->id;
+        $add->price = $request->price;
+        $add->bus_name = $request->bus_name;
+        $add->bus_number = $request->bus_number;
+        $add->total_seat = $request->total_seat;
+        $add->route_name = $request->route_name;
+        $add->seat_number = $request->seat_number;
+        $add->status = 0;
+        $add->user_id = Auth::id();
+        $add->save();
+        Session::put('booking_ticket', 'Ticket Booking successfully');
+        return redirect()->route('bd-bus.index');
     }
 
     /**

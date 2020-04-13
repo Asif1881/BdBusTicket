@@ -34,8 +34,9 @@ Route::group( [ 'middleware' => ['auth','admin']], function() {
     Route::get('ticket-details','AdminController@ticket_price')->name('ticket.price');
     Route::get('add-ticket','AdminController@add_ticket')->name('add.ticket');
     Route::post('add-ticket-details','AdminController@add_ticket_details')->name('add.ticket.details');
+    Route::get('buy-ticket','AdminController@buy_ticket')->name('buy.ticket');
 });
 
 Route::group( [ 'middleware' => ['auth','customer']], function() {
-
+    Route::resource('seat-booking', 'CustomerSeatController');
 });

@@ -23,12 +23,12 @@
                         <p>Ticket Price</p>
                     </a>
                 </li>
-                {{--<li class="nav-item ">
-                    <a class="nav-link" href="{{ route('seat.details') }}">
+                <li class="nav-item ">
+                    <a class="nav-link" href="{{ route('buy.ticket') }}">
                         <i class="material-icons">content_paste</i>
-                        <p>Seat Details</p>
+                        <p>Buy Tickets</p>
                     </a>
-                </li>--}}
+                </li>
             </ul>
         </div>
     </div>

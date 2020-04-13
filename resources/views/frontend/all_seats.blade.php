@@ -44,6 +44,8 @@
             <div class="col-12 text-center">
                 <h4>{{ $view_seats->bus_name }}</h4>
                 <div class="margin-bottom-10"></div>
+                <h4>{{ $view_seats->bus_number }}</h4>
+                <div class="margin-bottom-10"></div>
 
                 <p><strong><span class="text-danger">Route Name:</span> {{ $view_seats->route_name }}
                     </strong></p>
@@ -97,7 +99,6 @@
                     </div>
                 </div>
                 <div class="margin-bottom-40"></div>
-
                 <div class="all-seats">
                     <div class="row"><div class="col-2">
                             <div class="seat occupied ChooseSeat " data-item="">
@@ -471,25 +472,11 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
-
             <div class="col-md-6 col-sm-12">
-
-                <form action="#" class="price-details" id="bookingFrm" method="post" accept-charset="utf-8">
+                <form action="" class="price-details" id="bookingFrm"
+                      method="post" accept-charset="utf-8">
                     <input type="hidden" name="_token" value="PiCxnFDq8Oe8XexEujBHLmWQQeT4WpTJPAj6HbEh">
-                    <div class="form-group">
-                        <label><strong>Choose Boarding Point <span class="text-danger">*</span></strong></label>
-                        <select name="boarding" id="stoppage" class="form-control form-control-lg boarding_point select2-hidden-accessible" tabindex="-1" aria-hidden="true">
-                            <option value="">Boarding Point</option>
-                            <option value="point1">point1</option>
-                            <option value="point2">point2</option>
-                            <option value="point3">point3</option>
-                        </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" style="width: 508px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-stoppage-container"><span class="select2-selection__rendered" id="select2-stoppage-container" title="Boarding Point">Boarding Point</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-                    </div>
-
-
                     <div class="form-group">
                         <h4> Facilities</h4>
                         <div id="facilities">
@@ -511,31 +498,27 @@
                             </tr>
                             <tr>
                                 <td class="text-right"><b> Total</b></td>
-                                <th id="grandTotalPreview">200 USD</th>
+                                <th id="grandTotalPreview">{{ $view_seats->seat_price * 4 }} Tk</th>
                             </tr>
                             </tbody>
                         </table>
-
-                        <input type="hidden" name="trip_route_id" value="1">
-                        <input type="hidden" name="fleet_registration_id" value="1">
-                        <input type="hidden" name="trip_id_no" value="1891">
-                        <input type="hidden" name="id_no" value="1581829953">
-                        <input type="hidden" name="fleet_type_id" value="1">
-                        <input type="hidden" name="total_seat" value="4">
-                        <input type="hidden" name="seat_number" value="B3, B4, C3, C4, ">
-                        <input type="hidden" name="price" value="50">
-                        <input type="hidden" name="total_fare" value="200">
-                        <input type="hidden" name="booking_date" value="2020-02-26 11:00:02">
-
                     </div>
-                    <button id="submit-btn" class="btn btn-block">Continue</button>
                 </form>
-
-
-
+                <form action="{{ route('all-seats.store') }}" method="post">
+                    @csrf
+{{--                    <input type="hidden" name="trip_route_id" value="1">--}}
+                    <input type="hidden" name="id" value="{{ $view_seats->id }}">
+                    <input type="hidden" name="bus_number" value="{{ $view_seats->bus_number }}">
+                    <input type="hidden" name="bus_name" value="{{ $view_seats->bus_name }}">
+                    <input type="hidden" name="route_name" value="{{ $view_seats->route_name }}">
+                    <input type="hidden" name="total_seat" value="4">
+                    <input type="hidden" name="seat_number" value="B3, B4, C3, C4, ">
+                    <input type="hidden" name="price" value="{{ $view_seats->seat_price }}">
+{{--                    <input type="hidden" name="total_fare" value="200">--}}
+{{--                    <input type="hidden" name="booking_date" value="2020-02-26 11:00:02">--}}
+                    <button type="Submit" class="btn btn-block">Buy Ticket</button>
+                </form>
             </div>
-
-
         </div>
     </div>
 </div>

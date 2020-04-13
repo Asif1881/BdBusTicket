@@ -163,7 +163,7 @@
             });
 
             total_fare.val(countSeats * price);
-            $("#grandTotalPreview").text((countSeats * price) + " USD");
+            $("#grandTotalPreview").text((countSeats * price) + " TK");
             total_seat.val(countSeats);
             seat_number.val(seatSerial);
             seatPreview.html(seatSerial);
