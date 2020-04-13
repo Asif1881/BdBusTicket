@@ -8,7 +8,7 @@
                 <div class="breadcrumbinfo">
                     <article>
                         <span class="b-title">Stop Looking. Start Tracking!</span>
-                        <form action="https://ideal.thesoftking.com/bluebus/search" method="get">
+                        {{--<form action="https://ideal.thesoftking.com/bluebus/search" method="get">
                             <div class="form-row">
                                 <div class="col-12 col-md-3 col">
                                     <input type="text" name="start_point" value=""
@@ -28,7 +28,7 @@
                                     <button type="submit" class="form-control h-serch">SEARCH</button>
                                 </div>
                             </div>
-                        </form>
+                        </form>--}}
                     </article>
                 </div>
             </div>
@@ -42,20 +42,19 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h4>BUS COMPANY</h4>
-                <div class="margin-bottom-10"></div>
-                <h6>Bus Operator</h6>
+                <h4>{{ $view_seats->bus_name }}</h4>
                 <div class="margin-bottom-10"></div>
 
-                <p><strong><span class="text-danger">Route Name:</span> ROUTE 01
+                <p><strong><span class="text-danger">Route Name:</span> {{ $view_seats->route_name }}
                     </strong></p>
                 <div class="margin-bottom-10"></div>
 
-                <p>Dep Time: 11:02 AM <span class="text-success">(26 Feb 2020)</span></p>
+                <p>Dep Time: {{ $view_seats->dep_time }}</p>
+                <p>Arriving Time: {{ $view_seats->arr_time }}</p>
                 <div class="margin-bottom-5"></div>
-                <strong>Total Seat: 41</strong>
+                <strong>Total Seat: {{ $view_seats->total_seat }}</strong>
                 <div class="margin-bottom-5"></div>
-                <strong>Ticket Price : 50 USD</strong>
+                <strong>Ticket Price : {{ $view_seats->seat_price }} Tk.</strong>
             </div>
         </div>
 

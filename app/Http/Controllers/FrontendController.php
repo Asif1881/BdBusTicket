@@ -2,18 +2,22 @@
 
 namespace App\Http\Controllers;
 
+use App\SeatPrice;
 use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
-        return view('index');
+        $ticket_price = SeatPrice::where('status',1)->get();
+        return view('index',compact('ticket_price'));
+//        return view('frontend.all_seats');
+    }
+
+    public function view_seats($id)
+    {
+        $view_seats = SeatPrice::findOrFail($id);
+        return view('frontend.all_seats',compact('view_seats'));
     }
 
     /**

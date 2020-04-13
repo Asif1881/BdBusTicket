@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class SeatDetails extends Model
+class SeatPrice extends Model
 {
     protected $guarded = ['id'];
 }

@@ -32,7 +32,10 @@
     <link rel="stylesheet" type="text/css" href="{{asset('/')}}assets/front/css/homePageResponsive.css">
     <link rel="stylesheet" type="text/css" href="{{asset('/')}}assets/front/css/jquery.autocomplete.css">
     <link rel="stylesheet" type="text/css" href="{{asset('/')}}assets/front/css/flatpickr.min.css">
-
+    <link rel="stylesheet" type="text/css" href="{{asset('/')}}assets/front/css/homePageResponsive.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('/')}}assets/front/css/jquery.autocomplete.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('/')}}assets/admin/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('/')}}assets/front/css/seat-custom.css">
     <style>
         #contact-main {
             position: relative;
@@ -93,6 +96,7 @@
 
 
 <script src="{{asset('/')}}assets/front/js/jquery.autocomplete.js"></script>
+<script src="{{asset('/')}}assets/admin/js/select2.min.js"></script>
 <script src="{{asset('/')}}assets/front/js/flatpickr.js"></script>
 
 <!--Owl Carousel JS-->
@@ -248,7 +252,7 @@
 
 </script>
 
-{{--<script>
+<script>
     var type = "success";
     switch (type) {
         case 'info':
@@ -264,6 +268,6 @@
             toastr.error("All language file is not inputted in demo. Admin can add more language and input language text from admin panel.");
             break;
     }
-</script>--}}
+</script>
 </body>
 </html>

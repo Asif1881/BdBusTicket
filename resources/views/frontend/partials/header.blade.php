@@ -14,11 +14,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('bd-bus.index') }}">Home</a>
+                        <a class="nav-link" href="{{ route('all-seats.index') }}">Home</a>
+{{--                        <a class="nav-link" href="{{ route('bd-bus.index') }}">Home</a>--}}
                     </li>
-                    <li class="nav-item">
+                    {{--<li class="nav-item">
                         <a class="nav-link " href="contact-us.html">Contact</a>
-                    </li>
+                    </li>--}}
 
 
                     <li class="nav-item dropdown">
@@ -27,7 +28,7 @@
                            aria-expanded="false">Booking                            </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                             <a class="dropdown-item" href="login.html">Tikcet Cancel</a>
-                            
+
                         </div>
                     </li>
                     @guest

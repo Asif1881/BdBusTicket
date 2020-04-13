@@ -18,6 +18,7 @@
 Auth::routes();
 
 Route::get('/', 'FrontendController@index')->name('bd-bus.index');
+Route::get('view-seats/{id}', 'FrontendController@view_seats')->name('view.seats');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
 
@@ -29,6 +30,10 @@ Route::resource('all-seats','CustomerSeatController');
 
 Route::group( [ 'middleware' => ['auth','admin']], function() {
     Route::resource('admin', 'AdminController');
+    Route::get('all-users','AdminController@users')->name('all.users');
+    Route::get('ticket-details','AdminController@ticket_price')->name('ticket.price');
+    Route::get('add-ticket','AdminController@add_ticket')->name('add.ticket');
+    Route::post('add-ticket-details','AdminController@add_ticket_details')->name('add.ticket.details');
 });
 
 Route::group( [ 'middleware' => ['auth','customer']], function() {
